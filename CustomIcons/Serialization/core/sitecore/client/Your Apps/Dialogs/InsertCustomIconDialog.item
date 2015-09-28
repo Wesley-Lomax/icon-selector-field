@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {A67B42B6-EC83-4E41-A69D-DD917EAD34DA}
+database: core
+path: /sitecore/client/Your Apps/Dialogs/InsertCustomIconDialog
+parent: {2C6265B8-C644-471C-9603-91A85137E251}
+name: InsertCustomIconDialog
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6797
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fYour+Apps%2fDialogs%2fInsertCustomIconDialog%2fInsertCustomIconDialog.js" ph="Page.Code" uid="{237256AA-9D30-463E-9ED1-90CFF092FCF6}" />
+    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{50606E5F-8450-418F-B448-859F66371220}" />
+    <r id="{D47D6BFD-4F1F-4715-9FD1-5957EC0259F5}" par="Language=%24context_language&amp;Id=DataSource&amp;Text=%7bBinding+SearchTextBox.Text%7d&amp;Database=%24context_contentdatabase&amp;SearchConfigItemId=%7bC01B6B84-4D24-4214-B663-52902F43F113%7d&amp;Fields=CssClass&amp;Sorting=%7bBinding+IconResultsListControl.Sorting%7d" ph="Page.Body" uid="{276FA1F7-573F-40E0-82C7-9E2D150A2A47}" />
+    <r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{3AB2380C-C8AD-4B42-8848-69418CE847F8}" />
+    <r id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}" ph="DialogFooter" uid="{A061A4E7-F47D-42F8-AC31-6D9F0441F9B2}" />
+    <r id="{300455F0-D5AF-4EB6-8758-BD41875C981C}" ph="DialogContent" uid="{57882B01-67A3-40A2-B6F0-F84287D6F584}" />
+    <r ds="{92664897-C097-444F-AABE-E6A9DD21F79F}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="DialogHeader.Title" uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ToolbarRowPanel" ph="DialogContent.Actions" uid="{51FA5B43-38BA-48FB-A570-0FAB6F63E0D2}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=SearchColumnPanel&amp;ApplyGridColumsToAllSizes=1&amp;GridColumns=8" ph="ToolbarRowPanel.Content" uid="{4FA2CAAB-8AAA-40D0-8084-E5A0494DCC77}" />
+    <r ds="{F475BD33-D6EC-44A0-8134-6D5FBA298785}" id="{ED5C3BA8-17E3-4F82-89C2-1496E8D61434}" par="Id=Search" ph="SearchColumnPanel.Content" uid="{8F83EAA5-EA74-4FD1-8DF7-A0C0C1142C1C}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ViewModeColumnPanel1&amp;ApplyGridColumsToAllSizes=1&amp;GridColumns=4&amp;ContentAlign=Right" ph="ToolbarRowPanel.Content" uid="{4FA2CAAB-8AAA-40D0-8084-E5A0494DCC77}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=IconFolderRowPanel" ph="DialogContent.Main" uid="{97FF70C2-6455-4EED-A6DF-17D4214B8284}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=IconFolderColumnPanel&amp;ApplyGridColumsToAllSizes=1&amp;GridColumns=12" ph="MediaFolderRowPanel.Content" uid="{4BB2338D-BD8A-42AC-BCFE-668430C13E76}" />
+    <r ds="{F0F41488-37D6-4D8D-9C93-EA3A3D6BF06A}" id="{E4C8C7BE-E941-49F2-9724-29237AE7EA37}" par="Click=javascript%3aapp.DataSource.refresh()&amp;IsEnabled=1&amp;ButtonImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fSpeak%2fCommon%2f16x16%2fdark_gray%2fsearch.png&amp;Id=SearchTextBox&amp;IsVisible=1" ph="Search.Searches" uid="{768822F8-D3D8-405A-81CD-E7EF22A783E4}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=MessageBar1&amp;IsVisible=%7bBinding+DataSource.hasNoItems%7d&amp;Messages=%7b602E132C-A8E0-4E2F-9C91-1517666D2360%7d" ph="DialogContent.Main" uid="{29FDDC6E-315E-40E5-A16B-409949CE88F4}" />
+    <r cac="1" ds="{BBF35F45-9F65-4DE2-A4B4-B4C6A8F6C33B}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="ScrollMoreData=next%3aDataSource&amp;Id=IconResultsListControl&amp;Items=%7bBinding+DataSource.Items%7d&amp;Sorting=%7bBinding+DataSource.Sorting%7d&amp;ViewMode=TileList&amp;TileCssFileName=%2fsitecore%2fshell%2fclient%2fYour+Apps%2fDialogs%2fInsertCustomIconDialog%2fIcons.css&amp;IsEndlessScrollEnabled=0&amp;Height=500&amp;Behaviors=Scrollbar&amp;TileHtmlFileName=%2fsitecore%2fshell%2fclient%2fYour+Apps%2fDialogs%2fInsertCustomIconDialog%2fInsertCustomIconDialog.cshtml" ph="DialogContent.Main" uid="{E2D4AA89-5E6B-4906-B074-287BB86274AA}" vbd="1" />
+    <r id="{054CA6D7-125D-46D0-957C-D38A26190274}" par="Id=InfoSmartPanel1&amp;OffsetBottom=60&amp;OffsetTop=60" ph="Page.Body" uid="{CC8A21FD-B581-42C3-810C-F83895167FE8}" />
+    <r ds="{92664897-C097-444F-AABE-E6A9DD21F79F}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=SelectCustomIcon&amp;IsEnabled=0&amp;ButtonType=Primary" ph="DialogFooter.Buttons" uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
+    <r ds="{E95AAF6E-A5C8-4328-8A7E-CCB2DFA0ADBF}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CancelButton&amp;ButtonType=Default" ph="DialogFooter.Buttons" uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoTitle1&amp;TextType=LargeTitle&amp;Text=Media+Details" ph="InfoSmartPanel.Header" uid="{918F80BD-222B-46F1-B9F8-7EEC9D6034DF}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=InfoImageRow1&amp;ContentAlignment=Center&amp;UsePadding=1" ph="InfoSmartPanel.Content" uid="{9D28621E-4C7F-497B-97ED-05FA57E56C06}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=InfoImage1" ph="InfoImageRow.Content" uid="{DD7A6455-F45D-4FD4-9AA5-05CCC70591CC}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b1E582E21-DE4D-4CC2-8652-7B534DFB995E%7d&amp;Id=InsertButtonRule&amp;TargetControl=SelectCustomIcon&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{A739E6CD-0B38-457B-A448-6E22DA73D8AC}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b7FD9CF51-D85B-4DA0-AFD4-0AC8B6C82F3B%7d&amp;Id=CancelButtonRule&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{45F82880-AB69-4AAB-A1C5-D75DB4FF402F}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b8B7C7538-77B1-487C-8B1E-88F5C9D37D03%7d&amp;Id=ItemsRule&amp;TargetControl=DataSource&amp;Trigger=itemsChanged&amp;Field=Rule" ph="Page.Body" uid="{19B56ED8-77EA-49F4-AAD4-F559A4CB75CE}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bC2ECB642-7FA7-4C19-8D09-D1AC0B13FF28%7d&amp;Id=ListControlRule&amp;TargetControl=IconResultsListControl&amp;Trigger=change%3aselectedItemId&amp;Field=Rule" ph="Page.Body" uid="{938F34BF-C26B-489A-8E0F-EC79401D77C4}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=InfoNameRow1&amp;UsePadding=0" ph="InfoSmartPanel.Content" uid="{0C4B7EC4-3403-4352-A9DE-EFFB8C771599}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InfoNameLabel1&amp;TextType=Label&amp;Text=Name%3a" ph="InfoNameRow.Content" uid="{0AD34FED-934A-4678-8D3C-335A61344BB4}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=InfoName1&amp;TextType=Value" ph="InfoNameRow.Content" uid="{0AD34FED-934A-4678-8D3C-335A61344BB4}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=InfoType1&amp;TextType=Value" ph="InfoTypeRow.Content" uid="{4A158C4C-69C9-4ED0-B84C-A42B4905ED2B}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: c2fdd738-6fff-4827-897c-f7a149cce16c
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 18
+
+Insert Custom Icon
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150820T142441Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c2fdd738-6fff-4827-897c-f7a149cce16c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150825T085517:635760897176262808Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

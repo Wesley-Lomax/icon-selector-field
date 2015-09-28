@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {C01B6B84-4D24-4214-B663-52902F43F113}
+database: core
+path: /sitecore/client/Your Apps/Dialogs/InsertCustomIconDialog/PageSettings/Search Configs/All Icons
+parent: {1B89B164-A3FA-4315-95BA-2D54F39109DF}
+name: All Icons
+master: {00000000-0000-0000-0000-000000000000}
+template: {83E8F3D3-065A-40E3-B17D-C4A1E9DAD6B4}
+templatekey: SearchPanel Config
+
+----field----
+field: {C41AA0FB-CD20-4764-92D8-43E3F6562144}
+name: AppendSearchText
+key: appendsearchtext
+content-length: 1
+
+1
+----field----
+field: {19E8EDB4-8D83-40D9-936E-A21B08CBBC33}
+name: Root
+key: root
+content-length: 38
+
+{7CC230F1-60A8-4D97-9C06-C738A1334C6E}
+----field----
+field: {8F92BB79-70A4-4224-BF62-E0335D0892AB}
+name: Template
+key: template
+content-length: 38
+
+{68DB3823-D495-4C9A-B6C6-5507CAFF715A}
+----field----
+field: {80B15238-CA9D-4325-B4A2-102077DC66C9}
+name: Sorting
+key: sorting
+content-length: 13
+
+a_displayname
+----version----
+language: en
+version: 1
+revision: 13432ec4-18ba-4f46-805d-3cf714848ab6
+
+----field----
+field: {2354B5AC-94AD-475E-8A67-AAC438543471}
+name: DisplayText
+key: displaytext
+content-length: 9
+
+All Icons
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150824T084624Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13432ec4-18ba-4f46-805d-3cf714848ab6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150825T092630:635760915902835278Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

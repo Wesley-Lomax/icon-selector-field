@@ -1,0 +1,276 @@
+----item----
+version: 1
+id: {7B6FCF32-6EF1-481B-B2E4-14EFC411246B}
+database: core
+path: /sitecore/client/Your Apps/Dialogs/InsertCustomIconDialog/PageSettings/Filters
+parent: {24F7941B-B359-4687-A0BD-46D1F4C83118}
+name: Filters
+master: {00000000-0000-0000-0000-000000000000}
+template: {139E615F-4DFA-41DA-B596-BCA15788E73E}
+templatekey: ToggleButton Parameters
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+550
+----version----
+language: da
+version: 1
+revision: a27fe734-041f-4442-b95f-8af9339d387d
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 28
+
+Filtrer dine medieelementer.
+----field----
+field: {F5179A25-3FF7-4CF7-8A4E-70C3EC1579C3}
+name: Text
+key: text
+content-length: 6
+
+Filtre
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Filtre
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150427T173114:635657526741416728Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a27fe734-041f-4442-b95f-8af9339d387d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150427T180125:635657544859617092Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: ba4b69c8-432d-4419-9610-81bdc292504f
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 20
+
+Medienitems filtern.
+----field----
+field: {F5179A25-3FF7-4CF7-8A4E-70C3EC1579C3}
+name: Text
+key: text
+content-length: 6
+
+Filter
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Filter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150427T174005:635657532057083020Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba4b69c8-432d-4419-9610-81bdc292504f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150427T180915:635657549550735375Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 62391fab-1aba-4fdf-b0c8-a9ba67ae5173
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 24
+
+Filter your media items.
+----field----
+field: {F5179A25-3FF7-4CF7-8A4E-70C3EC1579C3}
+name: Text
+key: text
+content-length: 7
+
+Filters
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+62391fab-1aba-4fdf-b0c8-a9ba67ae5173
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150824T142136:635760228961584981Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: ce5a1d08-3454-469a-800b-6c4368513928
+
+----field----
+field: {E17D3534-A424-47E3-8F2C-3DBBA705565F}
+name: Tooltip
+key: tooltip
+content-length: 17
+
+メディア アイテムをフィルタリング
+----field----
+field: {F5179A25-3FF7-4CF7-8A4E-70C3EC1579C3}
+name: Text
+key: text
+content-length: 5
+
+フィルター
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+フィルター
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150427T174903:635657537439139499Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ce5a1d08-3454-469a-800b-6c4368513928
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150427T180528:635657547289306506Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

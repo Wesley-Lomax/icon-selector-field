@@ -1,0 +1,252 @@
+----item----
+version: 1
+id: {C2ECB642-7FA7-4C19-8D09-D1AC0B13FF28}
+database: core
+path: /sitecore/client/Your Apps/Dialogs/InsertCustomIconDialog/PageSettings/Rules/ListControlRuleDefinition
+parent: {4936D5F2-7F9F-4649-9D8D-55AF30F4DC83}
+name: ListControlRuleDefinition
+master: {00000000-0000-0000-0000-000000000000}
+template: {1F99AE6E-22B8-419E-81DB-A983E619325E}
+templatekey: RuleDefinition
+
+----field----
+field: {431A0113-9D08-4DAE-8C5B-AC8301512BD8}
+name: Rule
+key: rule
+content-length: 924
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule>
+    <conditions>
+      <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="E246FA8733644522A847BAC05F5C78AA" name="IconResultsListControl" />
+    </conditions>
+    <actions>
+      <action id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}" uid="{76417B86-417B-4A78-96D4-0CCB9A2AFEE6}" name="SelectCustomIcon" value="" />
+    </actions>
+  </rule>
+  <rule uid="D96F279275AA438687193180E5C8422B">
+    <conditions uid="636E358713CE46A8BCA0538E0C951AAE">
+      <condition id="{E956001C-6ACD-4CE0-B7CC-F2B6EE7DDA94}" uid="74E637009A0D4F62BCFD5A6290B6F1EC" name="IconResultsListControl" except="true" />
+    </conditions>
+    <actions uid="DE5886AE937E4AD195B5464418371B68">
+      <action id="{F51FD432-BB4E-46E2-9A43-20F27C0BC24F}" uid="{73F9888D-E4A3-4AAE-87D6-C7DAC4817451}" name="SelectCustomIcon" value="false" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----version----
+language: da
+version: 1
+revision: fe794849-2821-48f4-b76b-a45de01c26d7
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 25
+
+ListControlRuleDefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150427T173057:635657526570164536Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fe794849-2821-48f4-b76b-a45de01c26d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150427T180117:635657544775865484Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 73847165-9abe-444c-9213-3ee3bf9b7989
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+ListensteuerungRegeldefinition
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150427T173944:635657531840202794Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73847165-9abe-444c-9213-3ee3bf9b7989
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150427T180906:635657549461515140Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: c31f7313-5f06-4b89-8ce7-a12855af8ffd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130708T163132
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c31f7313-5f06-4b89-8ce7-a12855af8ffd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150824T135643:635760214032912263Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 4e7f2452-78d1-4969-8720-16a5f520173a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+リスト コントロール ルール定義
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150427T174840:635657537202887987Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4e7f2452-78d1-4969-8720-16a5f520173a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150427T180519:635657547199617218Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
